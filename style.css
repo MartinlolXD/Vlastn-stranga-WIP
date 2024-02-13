@@ -1,0 +1,53 @@
+.navbar {
+    color: rgb(255, 255, 255);
+    text-decoration: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+.navbar a {
+    color: white;
+}
+
+.sportH {
+    display: flex;
+    justify-content: center;
+}
+.button-overlay {
+    position: relative;
+    display: inline-block;
+}
+.button-overlay button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button-overlay button:hover {
+    background-color: white;
+    color: black;
+}
+
+.sportContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 1vh;
+}
+
+.runButton {
+
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    width: 200px;
+    height: 50px;
+}
+
+.runButton a:hover {
+    background-color: white;
+    color: black;
+}
